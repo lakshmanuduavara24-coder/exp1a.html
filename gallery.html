@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thumbnail Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery a img {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .gallery a img:hover {
+            border-color: #333;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>My Image Gallery</h2>
+
+    <div class="gallery">
+        <!-- Image 1 -->
+        <a href="image1.jpg" target="_blank">
+            <img src="image1.jpg" alt="Image 1">
+        </a>
+
+        <!-- Image 2 -->
+        <a href="image2.jpg" target="_blank">
+            <img src="image2.jpg" alt="Image 2">
+        </a>
+
+        <!-- Image 3 -->
+        <a href="image3.jpg" target="_blank">
+            <img src="image3.jpg" alt="Image 3">
+        </a>
+
+        <!-- Image 4 -->
+        <a href="image4.jpg" target="_blank">
+            <img src="image4.jpg" alt="Image 4">
+        </a>
+    </div>
+
+</body>
+</html>
