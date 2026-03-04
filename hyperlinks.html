@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working of Hyperlinks in HTML</title>
+</head>
+<body>
+
+    <h1>Working of Hyperlinks in HTML</h1>
+
+    <p>
+        A hyperlink is created using the <b>&lt;a&gt;</b> (anchor) tag.
+        The <b>href</b> attribute specifies the destination URL (where the link goes).
+        The <b>target</b> attribute specifies where the linked document will open.
+    </p>
+
+    <h2>Example 1: Basic Hyperlink</h2>
+    <p>
+        <a href="https://www.google.com">
+            Visit Google
+        </a>
+    </p>
+    <p>
+        In this example, the <b>href</b> attribute directs the browser to open Google.
+        Since no target attribute is used, the link opens in the same tab.
+    </p>
+
+    <h2>Example 2: Open Link in New Tab</h2>
+    <p>
+        <a href="https://www.wikipedia.org" target="_blank">
+            Visit Wikipedia (Opens in New Tab)
+        </a>
+    </p>
+    <p>
+        Here, the <b>target="_blank"</b> attribute opens the link in a new tab.
+    </p>
+
+    <h2>Common target Attribute Values</h2>
+    <ul>
+        <li><b>_self</b> - Opens the link in the same tab (default).</li>
+        <li><b>_blank</b> - Opens the link in a new tab.</li>
+        <li><b>_parent</b> - Opens the link in the parent frame.</li>
+        <li><b>_top</b> - Opens the link in the full body of the window.</li>
+    </ul>
+
+    <h2>Example 3: Linking to a Local File</h2>
+    <p>
+        <a href="about.html">
+            Go to About Page (Local File)
+        </a>
+    </p>
+    <p>
+        This example shows how <b>href</b> can also link to another HTML file within the same folder.
+    </p>
+
+</body>
+</html>
